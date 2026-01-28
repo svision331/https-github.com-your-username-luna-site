@@ -9,12 +9,13 @@ import { useSoundEffects } from '@/hooks/useSoundEffects';
 
 // Mock community photos (in production, these would come from Instagram API)
 const communityPhotos = [
-    { id: 1, src: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&h=300&fit=crop', likes: 234 },
-    { id: 2, src: 'https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=300&h=300&fit=crop', likes: 189 },
-    { id: 3, src: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=300&h=300&fit=crop', likes: 312 },
-    { id: 4, src: 'https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?w=300&h=300&fit=crop', likes: 156 },
-    { id: 5, src: 'https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=300&h=300&fit=crop', likes: 278 },
-    { id: 6, src: 'https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?w=300&h=300&fit=crop', likes: 421 },
+    { id: 1, src: '/images/gallery/gallery-01.jpg', likes: 234 },
+    { id: 2, src: '/images/gallery/gallery-02.jpg', likes: 189 },
+    { id: 3, src: '/images/gallery/gallery-03.jpg', likes: 312 },
+    { id: 4, src: '/images/gallery/gallery-04.jpg', likes: 156 },
+    { id: 5, src: '/images/gallery/gallery-05.jpg', likes: 278 },
+    // Reusing the first one for the 6th slot to keep grid balanced, or we could add another later
+    { id: 6, src: '/images/gallery/gallery-01.jpg', likes: 421 },
 ];
 
 const featuredInvader = {
