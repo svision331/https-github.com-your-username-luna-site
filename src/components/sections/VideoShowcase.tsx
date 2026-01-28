@@ -291,8 +291,8 @@ export function VideoShowcase({ videos }: VideoShowcaseProps) {
                                                 </span>
                                                 <span className="opacity-60">|</span>
                                                 <span>{currentVideo.duration}</span>
-                                                <span className="opacity-60 hidden sm:inline">|</span>
-                                                <span className="hidden sm:inline">{currentVideo.views} VIEWS</span>
+
+
                                             </div>
                                             {currentVideo.description && (
                                                 <p className="text-xs md:text-sm text-cyan-200/80 max-w-2xl mt-2 line-clamp-1 md:line-clamp-2 font-sans hidden sm:block">
@@ -405,7 +405,7 @@ export function VideoShowcase({ videos }: VideoShowcaseProps) {
                                         </h4>
                                         <div className="flex items-center justify-between text-[10px] uppercase tracking-wider font-mono">
                                             <span className={`${idx === currentVideoIndex ? 'text-cyan-600' : 'text-zinc-600'}`}>{video.duration || '00:00'}</span>
-                                            <span className={`${idx === currentVideoIndex ? 'text-cyan-600' : 'text-zinc-600'}`}>{video.views || '0'} VIEWS</span>
+
                                         </div>
                                     </div>
                                 </motion.div>

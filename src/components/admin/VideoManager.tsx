@@ -109,7 +109,7 @@ export function VideoManager({ initialVideos }: VideoManagerProps) {
                             <h3 className="font-bold text-white truncate" title={video.title}>{video.title}</h3>
                             <div className="flex items-center justify-between mt-2 text-xs text-slate-400">
                                 <span className="uppercase tracking-wider border border-white/10 px-2 py-0.5 rounded">{video.category}</span>
-                                <span>{video.views || 0} views</span>
+
                             </div>
                             {video.description && (
                                 <p className="text-xs text-slate-500 mt-2 line-clamp-2">{video.description}</p>
@@ -218,8 +218,7 @@ function VideoFormModal({ video, onClose, onSuccess }: { video: Video | null, on
                             <input name="duration" defaultValue={video?.duration} placeholder="e.g. 4:20" className="w-full bg-slate-800 border-slate-700 rounded p-2 text-white placeholder-slate-600 focus:border-cyan-500 outline-none" />
                         </div>
                         <div>
-                            <label className="block text-xs uppercase tracking-wider text-slate-400 mb-1">Views</label>
-                            <input name="views" defaultValue={video?.views} placeholder="e.g. 1.2K" className="w-full bg-slate-800 border-slate-700 rounded p-2 text-white placeholder-slate-600 focus:border-cyan-500 outline-none" />
+
                         </div>
                     </div>
 
