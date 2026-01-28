@@ -15,7 +15,7 @@ const communityPhotos = [
     { id: 4, src: '/images/gallery/gallery-04.jpg', likes: 156 },
     { id: 5, src: '/images/gallery/gallery-05.jpg', likes: 278 },
     // Reusing the first one for the 6th slot to keep grid balanced, or we could add another later
-    { id: 6, src: '/images/gallery/gallery-01.jpg', likes: 421 },
+    { id: 6, src: '/images/gallery/gallery-06.jpg', likes: 421 },
 ];
 
 const featuredInvader = {
