@@ -40,6 +40,14 @@ This website serves as an immersive "Operating System" for fans, allowing them t
    npm run build
    ```
 
+## 🔑 Environment Variables
+
+To enable the AI chat ("Comms Interface"), add the following to your `.env.local` (and Vercel Project Settings):
+
+```bash
+OPENAI_API_KEY=sk-...
+```
+
 ## 📡 Key Components
 
 - **NebulaConsole (`src/components/landing/NebulaConsole.tsx`)**: The main dashboard interface, featuring a deterministic visualizer and "quick action" modules.
