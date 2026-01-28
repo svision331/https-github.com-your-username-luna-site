@@ -19,7 +19,7 @@ const communityPhotos = [
 
 const featuredInvader = {
     name: 'CosmicDancer_NYC',
-    avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop',
+    avatar: '/images/top-contributor.jpg',
     showsAttended: 12,
     quote: 'Every Nebula Bash feels like coming home to another dimension. This community is family.',
 };
