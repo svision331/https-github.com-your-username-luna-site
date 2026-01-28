@@ -18,7 +18,7 @@ const communityPhotos = [
 ];
 
 const featuredInvader = {
-    name: 'CosmicDancer_NYC',
+    name: 'MOINTHECITY',
     avatar: '/images/top-contributor.jpg',
     showsAttended: 12,
     quote: 'Every Nebula Bash feels like coming home to another dimension. This community is family.',
