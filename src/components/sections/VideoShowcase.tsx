@@ -326,7 +326,7 @@ export function VideoShowcase({ videos }: VideoShowcaseProps) {
                                         <div className="h-[1px] w-4 bg-cyan-500/50" />
                                         <span className="text-[9px] text-cyan-400 font-mono tracking-[0.3em] uppercase hidden sm:inline">Audio_Link_Active</span>
                                     </div>
-                                    <div className="text-sm md:text-lg font-bold text-white truncate font-display tracking-wide">GOLDEN HOUR</div>
+                                    <div className="text-sm md:text-lg font-bold text-white truncate font-display tracking-wide">ICE GIANT LOVER GIRL</div>
                                 </div>
                                 <div className="w-[120px] md:w-[250px] h-10 md:h-12 relative opacity-60 group-hover:opacity-100 transition-opacity grayscale hover:grayscale-0">
                                     <iframe
