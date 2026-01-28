@@ -59,6 +59,13 @@ body {
   color: var(--slate-100);
   min-height: 100vh;
   overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: var(--nebula-cyan);
+  color: black;
 }
 
 /* ================================
@@ -291,7 +298,7 @@ body {
    ================================ */
 
 .section {
-  padding: var(--section-padding) 1rem;
+  padding: var(--section-padding) 1.5rem;
 }
 
 .section-alt {

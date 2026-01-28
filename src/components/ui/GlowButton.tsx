@@ -27,9 +27,9 @@ export function GlowButton({
     };
 
     const variantStyles = {
-        primary: 'bg-gradient-to-r from-cyan-500 to-cyan-600 text-white hover:shadow-[0_0_30px_rgba(34,211,238,0.4)]',
-        secondary: 'bg-gradient-to-r from-pink-500 to-purple-600 text-white hover:shadow-[0_0_30px_rgba(236,72,153,0.4)]',
-        outline: 'bg-transparent border-2 border-cyan-400/50 text-cyan-400 hover:bg-cyan-400/10 hover:border-cyan-400',
+        primary: 'bg-gradient-to-r from-cyan-500 to-cyan-600 text-white hover:shadow-[0_0_40px_rgba(34,211,238,0.6)] border border-cyan-400/20',
+        secondary: 'bg-gradient-to-r from-pink-500 to-purple-600 text-white hover:shadow-[0_0_40px_rgba(236,72,153,0.6)] border border-pink-400/20',
+        outline: 'bg-transparent border-2 border-cyan-400/50 text-cyan-400 hover:bg-cyan-400/10 hover:border-cyan-400 hover:shadow-[0_0_20px_rgba(34,211,238,0.2)]',
     };
 
     return (

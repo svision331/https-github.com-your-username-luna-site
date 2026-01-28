@@ -41,7 +41,7 @@ export function Hero() {
             <div className="absolute inset-0 bg-slate-950/60" />
 
             {/* Content */}
-            <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
+            <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
                 {/* Welcome Badge */}
                 <motion.div
                     className="text-sm tracking-widest text-cyan-400 mb-4 font-medium"
