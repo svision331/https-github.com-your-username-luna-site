@@ -6,6 +6,7 @@ import { Instagram, Star, Heart, Radio } from 'lucide-react';
 import Image from 'next/image';
 import { communityStats } from '@/data/membership';
 import { useSoundEffects } from '@/hooks/useSoundEffects';
+import { HolographicText } from '@/components/effects';
 
 // Mock community photos (in production, these would come from Instagram API)
 const communityPhotos = [
@@ -48,8 +49,8 @@ export function Community() {
                         </span>
                     </div>
 
-                    <h2 className="text-4xl sm:text-5xl font-bold mb-4 font-display tracking-tight text-white glitch-text" data-text="ICE GIANT GALLERY">
-                        ICE GIANT GALLERY
+                    <h2 className="text-4xl sm:text-5xl font-bold mb-4 font-display tracking-tight text-white glitch-text">
+                        <HolographicText text="ICE GIANT GALLERY" />
                     </h2>
                     <p className="text-lg text-slate-400 font-mono text-xs tracking-wider uppercase">
                         Shot by the community // Uploading...

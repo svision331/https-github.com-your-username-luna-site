@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { upcomingShows, getNextShow } from '@/data/shows';
 import { ShowCard, CountdownTimer } from '@/components/ui';
 import { useSoundEffects } from '@/hooks/useSoundEffects';
+import { HolographicText } from '@/components/effects';
 
 export function LiveShows() {
     const nextShow = getNextShow();
@@ -25,7 +26,7 @@ export function LiveShows() {
                     </div>
 
                     <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-4 font-display text-transparent bg-clip-text bg-gradient-to-b from-white to-white/50 relative inline-block">
-                        LIVE SIGNALS
+                        <HolographicText text="LIVE SIGNALS" />
                         <div className="absolute -right-4 top-0 text-[8px] md:text-[10px] text-cyan-500 font-mono opacity-50">V4.0</div>
                     </h2>
                 </motion.div>

@@ -8,6 +8,7 @@ import { useSwipe } from '@/hooks';
 import { videoCategories, type VideoCategory, type Video } from '@/data/videos';
 import { VideoModal } from '@/components/ui';
 import { useSoundEffects } from '@/hooks/useSoundEffects'; // Import Sound Hook
+import { HolographicText } from '@/components/effects';
 
 interface VideoShowcaseProps {
     videos: Video[];
@@ -148,8 +149,8 @@ export function VideoShowcase({ videos }: VideoShowcaseProps) {
                     viewport={{ once: true }}
                 >
                     <div className="inline-block relative group cursor-default" onMouseEnter={playHover}>
-                        <h2 className="text-4xl sm:text-6xl md:text-9xl font-bold font-display tracking-tighter text-transparent bg-clip-text bg-gradient-to-b from-cyan-100 via-white to-cyan-900 mb-4 relative z-10 glitch-text drop-shadow-[0_0_30px_rgba(34,211,238,0.5)]" data-text="VISUAL LOGS">
-                            VISUAL LOGS
+                        <h2 className="text-4xl sm:text-6xl md:text-9xl font-bold font-display tracking-tighter text-transparent bg-clip-text bg-gradient-to-b from-cyan-100 via-white to-cyan-900 mb-4 relative z-10 glitch-text drop-shadow-[0_0_30px_rgba(34,211,238,0.5)]">
+                            <HolographicText text="VISUAL LOGS" />
                         </h2>
                         {/* Decorative Lines */}
                         <div className="absolute -left-4 md:-left-20 top-1/2 w-8 md:w-16 h-[2px] bg-gradient-to-r from-transparent to-cyan-500 hidden md:block group-hover:w-24 transition-all duration-500" />
@@ -325,7 +326,7 @@ export function VideoShowcase({ videos }: VideoShowcaseProps) {
                                         <div className="h-[1px] w-4 bg-cyan-500/50" />
                                         <span className="text-[9px] text-cyan-400 font-mono tracking-[0.3em] uppercase hidden sm:inline">Audio_Link_Active</span>
                                     </div>
-                                    <div className="text-sm md:text-lg font-bold text-white truncate font-display tracking-wide">ICE GIANT LOVER GIRL</div>
+                                    <div className="text-sm md:text-lg font-bold text-white truncate font-display tracking-wide">GOLDEN HOUR</div>
                                 </div>
                                 <div className="w-[120px] md:w-[250px] h-10 md:h-12 relative opacity-60 group-hover:opacity-100 transition-opacity grayscale hover:grayscale-0">
                                     <iframe
